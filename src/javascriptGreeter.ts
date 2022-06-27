@@ -1,8 +1,8 @@
 const { Greeter } = require("./greeter"); 
 
 export class JavaScriptGreeter extends Greeter {
-    constructor() {
-        super();
+    constructor(greeting: string) {
+        super(greeting);
     };
 
     greet(name: string): string {

@@ -9,5 +9,16 @@ describe("LoudGreeter", () => {
         let fullGreeting = greeting.greet(name);
 
         expect(fullGreeting).toBe("Hello, Marlee!!!");
-    })
-})
+    });
+
+    test("Using addVolume adds more exclamation marks", () => {
+        let greetingPhrase = "Howdy";
+        let name = "partner";
+        let greeting = new LoudGreeter(greetingPhrase)
+        
+        greeting.addVolume();
+        let fullGreeting = greeting.greet(name);
+
+        expect(fullGreeting).toBe("Howdy, partner!!!!");
+    });
+});

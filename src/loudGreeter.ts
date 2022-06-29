@@ -1,7 +1,7 @@
 const { Greeter } = require("../src/greeter");
 
 export class LoudGreeter extends Greeter {
-    constructor(private extra: string = "!!", greeting: string) {
+    constructor( greeting: string, private extra: string = "!!") {
         super(greeting);
     };
 

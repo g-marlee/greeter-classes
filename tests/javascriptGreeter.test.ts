@@ -8,7 +8,7 @@ describe("JavaScriptGreeter class", () => {
 
         const fullGreeting = greeting.greet(name);
 
-        expect(fullGreeting).toBe("console.log(Hello, Marlee)");
+        expect(fullGreeting).toBe("console.log(Hello, Marlee!)");
     }); 
 
     test("console.log(Howdy, partner)", () => {
@@ -18,6 +18,6 @@ describe("JavaScriptGreeter class", () => {
 
         const fullGreeting = greeting.greet(name);
 
-        expect(fullGreeting).toBe("console.log(Howdy, partner)");
+        expect(fullGreeting).toBe("console.log(Howdy, partner!)");
     });
 });

@@ -8,7 +8,7 @@ describe("Greeter class", () => {
 
         let fullGreeting = greeting.greet(name);
 
-        expect(fullGreeting).toBe("Hello, Marlee");
+        expect(fullGreeting).toBe("Hello, Marlee!");
     });
     
     test("Howdy, partner", () => {
@@ -18,7 +18,7 @@ describe("Greeter class", () => {
 
         let fullGreeting = greeting.greet(name);
 
-        expect(fullGreeting).toBe("Howdy, partner");
+        expect(fullGreeting).toBe("Howdy, partner!");
     });
 });
 

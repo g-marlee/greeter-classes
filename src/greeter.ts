@@ -4,6 +4,6 @@ export class Greeter {
     ) {};
 
     greet(name: string): string {
-        return `${this.greeting}, ${name}`;
+        return `${this.greeting}, ${name}!`;
     }
 }
